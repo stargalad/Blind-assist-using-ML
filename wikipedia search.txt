@@ -1,0 +1,8 @@
+Import wikipedia # pip install Wikipedia
+
+while True:
+if wikipedia in query:
+speak(“Searching…”)
+query=query.replace(“wikipedia”, “”)
+result=Wikipedia.summary(query, sentences=2)
+speak(result)
